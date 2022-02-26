@@ -1,27 +1,3 @@
-## The project structure is:
-</br>
-
-src -- </br>
-    app.js </br>
-    controllers -- <br>
-                  index.js </br>
-                  controller.js </br>
-    helpers     -- </br>
-                  index.js </br> </br>
-                  helpFun1.js </br>
-                  helpFun2.js </br>
-                  helpFun3.js </br>
-    models      -- <br>
-                  index.js </br> 
-                  Model.js </br> 
-jsconfig.js </br>
-package.js </br>
-README.md <br>
-server.js </br> 
-yarn.lock 
-
-___ 
-
 ### First of all, look at the **app.js </br>** file in **src**
 
 See how custom modules are imported. You will notice @helpers, @controllers in the file path field
