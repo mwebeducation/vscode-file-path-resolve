@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@helpers/*": ["src/helpers/*"],
+      "@controllers": ["src/controllers/*"],
+      "@models": ["src/models/*"],
+      "yourCustomName": ["filePat"]
+    }
+  }
+}
