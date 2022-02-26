@@ -1,4 +1,4 @@
-### First of all, look at the **app.js </br>** file in **src**
+### First of all, look at the *app.js* file in *src*
 
 See how custom modules are imported. You will notice @helpers, @controllers in the file path field
 
@@ -9,9 +9,9 @@ You will need to create a jsconfig file to include the file path name you have c
 
 ___ 
 
-### Second, look at **jsconfig.js </br>on** 
+### Second, look at *jsconfig.json*
 
-In the **paths** of **compilerOptions** you will find ***{name: filePath}***
+In the ***paths*** of ***compilerOptions*** you will find ***{name: filePath}***
 
 ___
 
