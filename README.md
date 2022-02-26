@@ -1,27 +1,28 @@
 ## The project structure is:
+</br>
 
-src -- 
-    app.js 
-    controllers -- 
-                  index.js
-                  controller.js
-    helpers     -- 
-                  index.js
-                  helpFun1.js
-                  helpFun2.js
-                  helpFun3.js
-    models      -- 
-                  index.js 
-                  Model.js 
-jsconfig.json 
-package.json 
-README.md 
-server.js 
+src -- </br>
+    app.js </br>
+    controllers -- <br>
+                  index.js </br>
+                  controller.js </br>
+    helpers     -- </br>
+                  index.js </br> </br>
+                  helpFun1.js </br>
+                  helpFun2.js </br>
+                  helpFun3.js </br>
+    models      -- <br>
+                  index.js </br> 
+                  Model.js </br> 
+jsconfig.js </br>
+package.js </br>
+README.md <br>
+server.js </br> 
 yarn.lock 
 
 ___ 
 
-### First of all, look at the **app.js** file in **src**
+### First of all, look at the **app.js </br>** file in **src**
 
 See how custom modules are imported. You will notice @helpers, @controllers in the file path field
 
@@ -32,7 +33,7 @@ You will need to create a jsconfig file to include the file path name you have c
 
 ___ 
 
-### Second, look at **jsconfig.json** 
+### Second, look at **jsconfig.js </br>on** 
 
 In the **paths** of **compilerOptions** you will find ***{name: filePath}***
 
